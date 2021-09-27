@@ -1,0 +1,62 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+ErrorDocument 404 /404.php
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^.*$ https://www.%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.piyasam\.net
+RewriteRule (.*) https://www.piyasam.net/$1 [R=301,L]
+
+RewriteRule ^index.html? index.php [NC,L]
+RewriteRule ^404.html? 404.php [NC,L]
+RewriteRule ^iletisim.html? iletisim.php [NC,L]
+RewriteRule ^haberler.html? haberler.php [NC,L]
+RewriteRule ^sitemap.xml? sitemap.php [NC,L]
+RewriteRule ^habers-(.*).html$ kategori.php?seo=$1 [L,NC]
+RewriteRule ^haberl-(.*)-(.*).html$ kategori.php?seo=$1&s=$2 [L,NC]
+RewriteRule ^etiket-(.*).html$ etiket.php?etiket=$1 [NC,L]
+RewriteRule ^etikets-(.*)-(.*).html$ etiket.php?etiket=$1&s=$2 [NC,L]
+RewriteRule ^haber-(.*)-(.*).html$ haberdetay.php?seo=$1&id=$2 [L,NC]
+RewriteRule detay-(.*)-(.*).html? detay.php?tur=$1&doviz=$2 [L,NC]
+RewriteRule (.*).html? doviz.php?tur=$1
+RewriteRule grafikdata-(.*)-(.*)-(.*).json grafikdata.php?tur=$1&doviz=$2&gun=$3 [L,NC]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 1200
+   php_value max_input_time 300
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 256M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php72"
+   php_value upload_max_filesize 256M
+   php_flag zlib.output_compression Off
+   php_value date.timezone "Europe/Istanbul"
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 1200
+   php_value max_input_time 300
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 256M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php72"
+   php_value upload_max_filesize 256M
+   php_flag zlib.output_compression Off
+   php_value date.timezone "Europe/Istanbul"
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

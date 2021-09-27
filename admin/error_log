@@ -1,0 +1,86 @@
+[06-Oct-2020 08:41:38 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[06-Oct-2020 08:57:48 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[06-Oct-2020 08:57:48 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[06-Oct-2020 08:57:48 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[06-Oct-2020 08:57:55 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[06-Oct-2020 08:58:08 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[06-Oct-2020 08:58:08 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[06-Oct-2020 08:58:08 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[06-Oct-2020 08:58:12 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[06-Oct-2020 08:58:29 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[06-Oct-2020 08:58:29 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[06-Oct-2020 08:58:29 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[06-Oct-2020 08:58:33 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[07-Oct-2020 11:03:40 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[07-Oct-2020 11:04:05 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[08-Oct-2020 07:32:37 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[08-Oct-2020 08:06:03 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[08-Oct-2020 08:06:03 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[08-Oct-2020 08:06:03 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[08-Oct-2020 08:06:07 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[08-Oct-2020 09:19:05 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[08-Oct-2020 09:19:09 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[08-Oct-2020 09:19:12 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[08-Oct-2020 09:19:14 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[08-Oct-2020 17:07:45 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[08-Oct-2020 17:42:47 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[09-Oct-2020 07:19:52 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[09-Oct-2020 07:19:57 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[09-Oct-2020 07:20:07 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[13-Oct-2020 07:35:23 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[13-Oct-2020 07:35:27 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[13-Oct-2020 07:35:27 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[13-Oct-2020 07:35:27 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[13-Oct-2020 07:35:34 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[13-Oct-2020 08:25:47 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[13-Oct-2020 08:26:14 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[13-Oct-2020 08:26:14 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[13-Oct-2020 08:26:14 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[13-Oct-2020 08:26:27 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[13-Oct-2020 08:33:43 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[13-Oct-2020 08:33:43 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[13-Oct-2020 08:33:43 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[03-Nov-2020 16:21:15 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/mesajlar.php:5) in /home/zulfuuhq/piyasam.net/boynici/mesajlar.php on line 6
+[03-Nov-2020 16:21:20 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[03-Nov-2020 16:21:25 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[05-Nov-2020 09:47:24 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[05-Nov-2020 10:20:19 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[05-Nov-2020 10:20:19 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[05-Nov-2020 10:20:19 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[05-Nov-2020 10:20:22 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[10-Nov-2020 08:08:04 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[10-Nov-2020 08:08:09 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[11-Nov-2020 14:59:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/duyuru.php:5) in /home/zulfuuhq/piyasam.net/boynici/duyuru.php on line 6
+[11-Nov-2020 15:00:05 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[12-Nov-2020 17:07:32 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[12-Nov-2020 17:07:35 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[16-Nov-2020 15:22:48 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[16-Nov-2020 15:22:49 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[16-Nov-2020 15:22:54 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[16-Nov-2020 15:23:05 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[16-Nov-2020 15:23:05 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[16-Nov-2020 15:23:05 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[16-Nov-2020 15:23:08 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[16-Nov-2020 15:23:08 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[16-Nov-2020 15:23:08 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[16-Nov-2020 15:23:12 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[17-Jan-2021 14:43:44 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/haberekle.php:5) in /home/zulfuuhq/piyasam.net/boynici/haberekle.php on line 6
+[26-Jan-2021 14:44:21 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[01-Feb-2021 09:48:26 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[01-Feb-2021 09:48:35 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 24
+[01-Feb-2021 09:48:35 Europe/Istanbul] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 26
+[01-Feb-2021 09:48:35 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/cikis.php:1) in /home/zulfuuhq/piyasam.net/boynici/cikis.php on line 28
+[01-Feb-2021 09:48:39 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[18-Apr-2021 16:03:21 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[18-Apr-2021 16:03:26 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[20-Apr-2021 12:46:17 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[20-Apr-2021 12:46:21 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[18-Jun-2021 15:23:42 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[25-Jul-2021 14:45:40 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[25-Jul-2021 14:45:44 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[02-Aug-2021 07:27:05 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6
+[02-Aug-2021 07:27:13 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[02-Aug-2021 08:27:02 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/oku.php:5) in /home/zulfuuhq/piyasam.net/boynici/oku.php on line 6
+[02-Aug-2021 08:31:00 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/oku.php:5) in /home/zulfuuhq/piyasam.net/boynici/oku.php on line 6
+[11-Sep-2021 08:07:02 Europe/Istanbul] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/zulfuuhq/piyasam.net/boynici/giris.php on line 12
+[27-Sep-2021 08:39:23 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/boynici/index.php:5) in /home/zulfuuhq/piyasam.net/boynici/index.php on line 6

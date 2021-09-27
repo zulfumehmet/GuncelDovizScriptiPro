@@ -1,0 +1,22 @@
+[20-Jan-2021 10:54:56 Europe/Istanbul] PHP Warning:  file_get_contents(https://www.piyasam.net/api/currency.ph): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/zulfuuhq/piyasam.net/api/test.php on line 7
+[20-Jan-2021 10:55:41 Europe/Istanbul] PHP Warning:  file_get_contents(https://www.piyasam.net/api/currency.ph): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/zulfuuhq/piyasam.net/api/test.php on line 5
+[20-Jan-2021 10:56:29 Europe/Istanbul] PHP Warning:  file_get_contents(https://www.piyasam.net/api/currency.ph): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/zulfuuhq/piyasam.net/api/test.php on line 5
+[20-Jan-2021 10:56:29 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/zulfuuhq/piyasam.net/api/test.php on line 12
+[20-Jan-2021 11:07:56 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/zulfuuhq/piyasam.net/api/currency.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zulfuuhq/piyasam.net/api/currency.php on line 21
+[20-Jan-2021 11:08:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/zulfuuhq/piyasam.net/api/currency.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zulfuuhq/piyasam.net/api/currency.php on line 25
+[20-Jan-2021 11:16:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/zulfuuhq/piyasam.net/api/currency.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zulfuuhq/piyasam.net/api/currency.php on line 24
+[20-Jan-2021 11:19:24 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/api/currency.php:28) in /home/zulfuuhq/piyasam.net/api/currency.php on line 33
+[20-Jan-2021 11:20:24 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/api/currency.php:28) in /home/zulfuuhq/piyasam.net/api/currency.php on line 31
+[20-Jan-2021 11:22:03 Europe/Istanbul] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zulfuuhq/piyasam.net/api/currency.php:28) in /home/zulfuuhq/piyasam.net/api/currency.php on line 32
