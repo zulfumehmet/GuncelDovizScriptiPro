@@ -70,7 +70,7 @@ Etiket (Etiketleri virgül ile ayırınız</div>
                    basicEntities: false,
                    height: 500,
                    basicEntities: false,
-                                filebrowserBrowseUrl: '/boynici/resimler/liste.php',
+                                filebrowserBrowseUrl: '/admin/resimler/liste.php',
                                 filebrowserWindowWidth: '900',
                                 filebrowserWindowHeight: '700'
                    });
