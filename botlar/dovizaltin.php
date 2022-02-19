@@ -32,8 +32,13 @@ $genela = $genelayar->fetch(PDO::FETCH_ASSOC);
    return $yazdir;
    }
   
-   	$query = $db->prepare("INSERT INTO doviz SET kategori = ?,alis = ?, satis =?, degisim=?, yuzde=?");
-	$insert01 = $query->execute(array(1, $data['USD']["alis"], $data['USD']["satis"], degisim1($data['USD']["degisim"]), str_replace(",",".",$data['USD']["degisim"])));
+   
+   $al1 = strip_tags($data['USD']["satis"]);
+   $dolar_s= str_replace("Dolar kaç tl", "", $al1);
+
+   
+   $query = $db->prepare("INSERT INTO doviz SET kategori = ?,alis = ?, satis =?, degisim=?, yuzde=?");
+	$insert01 = $query->execute(array(1, $data['USD']["alis"], $dolar_s, degisim1($data['USD']["degisim"]), str_replace(",",".",$data['USD']["degisim"])));
 	$insert02 = $query->execute(array(2, $data['EUR']["alis"], $data['EUR']["satis"], degisim1($data['EUR']["degisim"]), str_replace(",",".",$data['EUR']["degisim"])));
 	$insert03 = $query->execute(array(3, $data['GBP']["alis"], $data['GBP']["satis"], degisim1($data['GBP']["degisim"]), str_replace(",",".",$data['GBP']["degisim"])));
 	$insert04 = $query->execute(array(4, $data['CAD']["alis"], $data['CAD']["satis"], degisim1($data['CAD']["degisim"]), str_replace(",",".",$data['CAD']["degisim"])));
@@ -58,10 +63,16 @@ $genela = $genelayar->fetch(PDO::FETCH_ASSOC);
  $adata = json_decode(file_get_contents('https://api.genelpara.com/embed/altin.json'), true);   
 
 
+ $altin_1 = strip_tags($adata['GA']["satis"]);
+ $altin_s= str_replace("Altın fiyatları", "", $altin_1);
+
+$altin_2 = strip_tags($adata['C']["satis"]);
+$ceyrek_s= str_replace("Çeyrek altın fiyatı", "", $altin_2);
+
 $altin = $db->prepare("INSERT INTO altin SET kategori = ?,alis = ?, satis =?, degisim=?, yuzde=?");
 	$ainsert1 = $altin->execute(array(1, $adata['XAU/USD']["alis"], $adata['XAU/USD']["satis"], degisim1($adata['XAU/USD']["degisim"]), str_replace(",",".",$adata['XAU/USD']["degisim"])));
-	$ainsert2 = $altin->execute(array(2, $adata['GA']["alis"], $adata['GA']["satis"], degisim1($adata['GA']["degisim"]), str_replace(",",".",$adata['GA']["degisim"])));
-	$ainsert3 = $altin->execute(array(3, $adata['C']["alis"], $adata['C']["satis"], degisim1($adata['C']["degisim"]), str_replace(",",".",$adata['C']["degisim"])));
+	$ainsert2 = $altin->execute(array(2, $adata['GA']["alis"], $altin_s, degisim1($adata['GA']["degisim"]), str_replace(",",".",$adata['GA']["degisim"])));
+	$ainsert3 = $altin->execute(array(3, $adata['C']["alis"], $ceyrek_s, degisim1($adata['C']["degisim"]), str_replace(",",".",$adata['C']["degisim"])));
 	$ainsert4 = $altin->execute(array(4, $adata['Y']["alis"], $adata['Y']["satis"], degisim1($adata['Y']["degisim"]), str_replace(",",".",$adata['Y']["degisim"])));
 	$ainsert5 = $altin->execute(array(5, $adata['T']["alis"], $adata['T']["satis"], degisim1($adata['T']["degisim"]), str_replace(",",".",$adata['T']["degisim"])));
 	$ainsert6 = $altin->execute(array(6, $adata['CMR']["alis"], $adata['CMR']["satis"], degisim1($adata['CMR']["degisim"]), str_replace(",",".",$adata['CMR']["degisim"])));
